@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js{
+    height: 100%;
+    background-color: black;
+}
+
+.align-column{
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+}
+
+.align-center{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+.form-control{
+    padding: 0;
+    margin: 0;
+}
+
+.form-group{
+    margin-top: 15px;
+}
+
+form{
+    position: absolute;
+    display: flex;
+}
+
+form input{
+    margin-top:35px;
+    height: 20px;
+    width: 160px;
+}
